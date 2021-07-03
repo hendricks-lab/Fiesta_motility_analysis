@@ -11,9 +11,9 @@ This code runs tmsd_changepts function to find local alpha-values using a rollin
 
 Run ‘reversal_event_analysis.m’ to segment tracks by reversals. 
 Lines 277 and 278 are segments of the code that find stationary, diffusive, and processive periods of motility based on the absolute value of the run-length in between two reversals. Currently, the code finds:
-Stationary runs = run length <=10 nm
-Diffusive runs = 200nm > run length > 10 nm
-Processive runs = run length > 200 nm
+Stationary runs = run length <=10 nm,
+Diffusive runs = 200nm > run length > 10 nm,
+Processive runs = run length > 200 nm.
 These values can be adjusted for different experimental set-ups.
 
 Included in the folder are two timelapse recordings and tracking data of cargoes moving along microtubules; ‘phago_minus_2’ is a cargo that moves uni-directionally towards the minus-end and ‘phago_bidir_1’ is a cargo that moves bi-directionally. The microtubule coordinates are saved as .xlsx files for each example. 
